@@ -1,0 +1,46 @@
+table, th, td {
+  border:1px solid black;
+  padding: 8px;
+}
+
+body {
+  background-color: darkslateblue;
+}
+
+th {
+    background-color: lightgreen;
+    border-bottom: solid rgb(182, 58, 58) 3px;
+}
+
+table {
+  width: 100%;
+  background-color: navajowhite;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  background-color: lightyellow;
+} 
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: plum;
+}
+
+footer > a{
+    color: khaki;
+}
+
+h1 {
+    text-align: center;
+    color: khaki;
+    text-shadow: 2px 2px 4px black;
+}
+caption {
+    font-size: 1.5em;
+    margin: 10px;
+    color: khaki;
+}
